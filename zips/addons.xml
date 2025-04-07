@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="script.module.cocoscrapers" name="CocoScrapers Module" version="1.0.32" provider-name="CocoJoe">
+	<addon id="script.module.cocoscrapers" name="CocoScrapers Module" version="1.0.32" provider-name="CocoScrapers">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0" />
 			<import addon="script.module.requests" />
@@ -31,9 +31,9 @@
     	<addon id="repository.cocoscrapers" name="CocoScrapers Repository" version="1.0.0" provider-name="CocoScrapers">
         	<extension point="xbmc.addon.repository" name="CocoScrapers Repository">
         		<dir minversion="19.0">
-            			<info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
-            			<checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
-            			<datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+            			<info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
+           			<checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+           			<datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
         		</dir>
         	</extension>
         	<extension point="xbmc.addon.metadata">
